@@ -113,4 +113,4 @@ if __name__ == "__main__":
                 1021234124435425235,
                 112838929922323300000000006]
     for test_num in test_arr:
-        print(sequence(test_num).trans2cn)
+        print(test_num,"=>",sequence(test_num).trans2cn)
