@@ -1,5 +1,6 @@
 class sequence(object):
     def __init__(self, seq):
+        self.UNKNOW = "?"
         self.UNIT_TYPE = ['个',
                           '万',
                           '亿',
@@ -31,7 +32,6 @@ class sequence(object):
         }
         self.WEIGH_TYPE = ["占", "十", "百", "千"]
         self.GROUP_LEN = len(self.WEIGH_TYPE)
-        self.UNKNOW = "?"
 
         self.trans2cn = self.trans_seq(seq)
 
